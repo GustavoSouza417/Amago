@@ -1,0 +1,261 @@
+  .nav-item{
+    color: white;
+  }
+
+  #home {
+    background-color: #199429;
+    color: white;
+  }
+
+  .caixa {
+    text-align: justify;
+    padding: 50px 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  #bntBlog{
+    margin-left: 100%;
+  }
+
+  footer p a {
+    margin: 5px 15px;
+  }
+
+  /*busca*/
+  .busca{ /*seção*/
+    margin-top: 1%;
+  }
+
+
+  /*CADASTRO*/
+  .cad_titulo{
+    margin-left: 28%;
+    padding-top: 10%;
+    margin-bottom: 0;
+  }
+
+  .forms{
+    margin-left: 4%;
+    margin-top: 7%;
+  }
+  .enviar{
+    width: 350px;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(182, 181, 181);
+    background-color: transparent;
+    outline: none;
+  }
+
+  #cad{
+    width: 400px;
+    height: 550px;
+    background-color: #ffffff;
+    margin: 10% auto 0 auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  } 
+
+.body_cad #cadPc{
+    width: 400px;
+    height: 550px;
+    background-color: #ffffff;
+    margin: 10% auto 0 auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }  
+
+  .radio{
+    margin: none;
+  }
+
+  #botaoCad{
+    margin-left: 13px;
+    width: 93%;
+    height: 45px;
+    margin-top: 5%;
+    border:  2px solid black;
+    border-radius: 20px;
+    background-color: rgb(175, 174, 174);
+    border: none;
+    cursor: pointer;
+  }
+
+  .body_cad{
+    background-color: #e7e7e8;
+    background-image: url("../img/capa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /*logar*/
+  #log{ /*SEÇÃO*/
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .log_titulo{
+    margin-left: 37%;
+    padding-top: 10%;
+    margin-bottom: 0;
+  }
+
+  #criar_conta{
+    margin-left: 40%;
+  }
+
+  /*ids header*/
+  #inicio{
+    color: #ffffff;
+  }
+
+  #descarte{
+    color: #ffffff;
+  }
+
+  #blog{
+    color: #ffffff;
+  }
+
+  /*blog*/
+  .img_blog{
+    margin-top: 1%;
+  }
+
+  .col{
+    margin: auto
+  }
+
+  #conteiner{
+    margin: auto;
+  }
+
+  .materias{
+    margin-top: 3%;
+    margin-bottom: 1%;
+  }
+
+
+  /*descarte*/
+  .pontos{ /*seção*/
+    margin: 1% 15% 1% 15%;
+    padding-left: 1%;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+  } 
+
+  .img_descarte{
+    margin-bottom: 5%;
+    margin-top: 0%;
+    margin-left: 30%; 
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .descarte_desc{
+    text-align:justify; 
+  }
+
+  /*#descarte_titulo{
+  }*/
+
+  #descarte_btn{
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  /*saiba mais*/
+  /*texto inicial*/
+  .container_XL{
+    margin: 0 auto;
+  }
+
+  .titulo_ponto{
+    margin-top: 10%;
+  }
+  
+   #desc_ponto{
+    margin: 1%;
+    text-align:justify; 
+   }
+   /* fim do texto inicial*/
+
+  /*galeria de fts*/
+  .principal {
+    width: 60%;
+    margin: 2rem auto;
+   }
+   .galeria {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    gap: 0.5rem;
+   }
+   .imgGaleria {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+   }
+   .itemGaleria {
+    overflow: hidden;
+   }
+   .item01 {
+    grid-column: 1 / span 2;
+    grid-row: 1 /span 5;
+   }
+   .item02 {
+    grid-column: 3 / span 2;
+    grid-row: 1 /span 2;
+   }
+   .item03 {
+    grid-column: 5 / span 4;
+    grid-row: 1 /span 5;
+   }
+   .item04 {
+    grid-column: 3 / span 2;
+    grid-row: 3 /span 3;
+   }
+   img {
+    transition: 0.5s;
+   }
+   img:hover {
+    transform: scale(1.2);
+   }
+  /*fim galeria de fts*/
+
+  /*Caixa de comentarios*/
+   #comentario{
+    margin-top:-65%;
+   }
+
+   textarea{
+    resize: none;
+   }
+
+   textarea:invalid{/*caso de tentativa de envio de caixa vazia*/
+    border: 2px solid red;
+   }
+   /*fim caixa de comentarios*/
+
+   /*comentarios*/
+    .coment_fotoPerfil{
+      width:45px;
+      height:45px;
+      border-radius: 55px;
+    }
+
+    .coment_nomePerfil{
+      font-weight:bolder;
+      font-size: large;
+    }
+
+   /*fim dos comentarios*/
+
+
+   /*materia*/
+   .img_blog:hover{
+    transform:none;
+   }
+   /*fim de materia*/

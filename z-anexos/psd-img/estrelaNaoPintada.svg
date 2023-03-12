@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66 50" width="66" height="50">
+	<title>estrelaNaoPintada</title>
+	<defs>
+		<image  width="72" height="58" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAA6AgMAAABuafceAAAAAXNSR0IB2cksfwAAAAlQTFRF////////AAAAjvTD7AAAAAN0Uk5T/wD/aewfvgAAAN5JREFUeJy1kmEOgyAMhb2EO9ngBzcY5xncgB/tKUdbWmrc1Jjsxaj5eJb24bLc1hq2eh6i1x7hTRSxXECptgsoV9ihsEOoXUwE3XeKYgupnKLU6PIo93Ei4kAPZDEivQ1Ra4pW8UgaXVQra3hcFAhZUpIa75jBmaSJaaM36ctsVFZQ0g2wWfcos/DSQEm+zM3NiMHuiobrGEVBHKKi9hO5HWkZx8pEqbfrUS6BgwWHuql22wYhUAxuRkh8Qi07hMBpTRTliOShaMzoUbHoNWjL3oKOdkLF/4Wm7+iv+gCuqDzzit4X4QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Camada 1" href="#img1" x="-5" y="-3"/>
+</svg>
